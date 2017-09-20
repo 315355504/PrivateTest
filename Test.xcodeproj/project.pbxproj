@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		564BC105A1C26B6291C8DCAB /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD7C7F47632AF460ABD7ED2 /* Pods_Test.framework */; };
+		6ECD5DD11F72B60D00333DF9 /* CDStatusBarTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DAE1F72B60D00333DF9 /* CDStatusBarTableView.m */; };
+		6ECD5DD21F72B60D00333DF9 /* CDStatusBarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DB01F72B60D00333DF9 /* CDStatusBarTableViewCell.m */; };
+		6ECD5DD31F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DB21F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.m */; };
+		6ECD5DD41F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DB41F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.m */; };
+		6ECD5DD51F72B60D00333DF9 /* CDStatusBarDataManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DB71F72B60D00333DF9 /* CDStatusBarDataManage.m */; };
+		6ECD5DD61F72B60D00333DF9 /* CDStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DBA1F72B60D00333DF9 /* CDStatusBar.m */; };
+		6ECD5DD71F72B60D00333DF9 /* CDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DBD1F72B60D00333DF9 /* CDStatusBarView.m */; };
+		6ECD5DD81F72B60D00333DF9 /* CDStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DBF1F72B60D00333DF9 /* CDStatusBarViewController.m */; };
+		6ECD5DD91F72B60D00333DF9 /* CDStatusBarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DC11F72B60D00333DF9 /* CDStatusBarWindow.m */; };
+		6ECD5DDA1F72B60D00333DF9 /* CollectionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DC51F72B60D00333DF9 /* CollectionItemView.m */; };
+		6ECD5DDB1F72B60D00333DF9 /* FrontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DC81F72B60D00333DF9 /* FrontView.m */; };
+		6ECD5DDC1F72B60D00333DF9 /* HeaderTypeListScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DCB1F72B60D00333DF9 /* HeaderTypeListScrollView.m */; };
+		6ECD5DDD1F72B60D00333DF9 /* MXParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD5DCE1F72B60D00333DF9 /* MXParallaxHeader.m */; };
+		6ECD5DDE1F72B60D00333DF9 /* Friday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECD5DD01F72B60D00333DF9 /* Friday.framework */; };
 		6EE407B71F72494200F32620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE407B61F72494200F32620 /* main.m */; };
 		6EE407BA1F72494200F32620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE407B91F72494200F32620 /* AppDelegate.m */; };
 		6EE407BD1F72494200F32620 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE407BC1F72494200F32620 /* ViewController.m */; };
@@ -95,6 +109,35 @@
 
 /* Begin PBXFileReference section */
 		3DFA8ED0E6F7A31CA594C010 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		6ECD5DAB1F72B60D00333DF9 /* CDStatusBarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarHeader.h; sourceTree = "<group>"; };
+		6ECD5DAD1F72B60D00333DF9 /* CDStatusBarTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarTableView.h; sourceTree = "<group>"; };
+		6ECD5DAE1F72B60D00333DF9 /* CDStatusBarTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarTableView.m; sourceTree = "<group>"; };
+		6ECD5DAF1F72B60D00333DF9 /* CDStatusBarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarTableViewCell.h; sourceTree = "<group>"; };
+		6ECD5DB01F72B60D00333DF9 /* CDStatusBarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarTableViewCell.m; sourceTree = "<group>"; };
+		6ECD5DB11F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarTableViewHeaderView.h; sourceTree = "<group>"; };
+		6ECD5DB21F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarTableViewHeaderView.m; sourceTree = "<group>"; };
+		6ECD5DB31F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarTableViewTextFieldCellTableViewCell.h; sourceTree = "<group>"; };
+		6ECD5DB41F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarTableViewTextFieldCellTableViewCell.m; sourceTree = "<group>"; };
+		6ECD5DB61F72B60D00333DF9 /* CDStatusBarDataManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarDataManage.h; sourceTree = "<group>"; };
+		6ECD5DB71F72B60D00333DF9 /* CDStatusBarDataManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarDataManage.m; sourceTree = "<group>"; };
+		6ECD5DB91F72B60D00333DF9 /* CDStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBar.h; sourceTree = "<group>"; };
+		6ECD5DBA1F72B60D00333DF9 /* CDStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBar.m; sourceTree = "<group>"; };
+		6ECD5DBB1F72B60D00333DF9 /* CDStatusBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarConfig.h; sourceTree = "<group>"; };
+		6ECD5DBC1F72B60D00333DF9 /* CDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarView.h; sourceTree = "<group>"; };
+		6ECD5DBD1F72B60D00333DF9 /* CDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarView.m; sourceTree = "<group>"; };
+		6ECD5DBE1F72B60D00333DF9 /* CDStatusBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarViewController.h; sourceTree = "<group>"; };
+		6ECD5DBF1F72B60D00333DF9 /* CDStatusBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarViewController.m; sourceTree = "<group>"; };
+		6ECD5DC01F72B60D00333DF9 /* CDStatusBarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDStatusBarWindow.h; sourceTree = "<group>"; };
+		6ECD5DC11F72B60D00333DF9 /* CDStatusBarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDStatusBarWindow.m; sourceTree = "<group>"; };
+		6ECD5DC41F72B60D00333DF9 /* CollectionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemView.h; sourceTree = "<group>"; };
+		6ECD5DC51F72B60D00333DF9 /* CollectionItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionItemView.m; sourceTree = "<group>"; };
+		6ECD5DC71F72B60D00333DF9 /* FrontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontView.h; sourceTree = "<group>"; };
+		6ECD5DC81F72B60D00333DF9 /* FrontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontView.m; sourceTree = "<group>"; };
+		6ECD5DCA1F72B60D00333DF9 /* HeaderTypeListScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTypeListScrollView.h; sourceTree = "<group>"; };
+		6ECD5DCB1F72B60D00333DF9 /* HeaderTypeListScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTypeListScrollView.m; sourceTree = "<group>"; };
+		6ECD5DCD1F72B60D00333DF9 /* MXParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXParallaxHeader.h; sourceTree = "<group>"; };
+		6ECD5DCE1F72B60D00333DF9 /* MXParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXParallaxHeader.m; sourceTree = "<group>"; };
+		6ECD5DD01F72B60D00333DF9 /* Friday.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Friday.framework; sourceTree = "<group>"; };
 		6EE407B21F72494200F32620 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE407B61F72494200F32620 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EE407B81F72494200F32620 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -243,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				564BC105A1C26B6291C8DCAB /* Pods_Test.framework in Frameworks */,
+				6ECD5DDE1F72B60D00333DF9 /* Friday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +313,112 @@
 				DBD7C7F47632AF460ABD7ED2 /* Pods_Test.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ECD5DAA1F72B60D00333DF9 /* CDStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DAB1F72B60D00333DF9 /* CDStatusBarHeader.h */,
+				6ECD5DAC1F72B60D00333DF9 /* CDTableview */,
+				6ECD5DB51F72B60D00333DF9 /* DataManage */,
+				6ECD5DB81F72B60D00333DF9 /* MainView */,
+			);
+			path = CDStatusBar;
+			sourceTree = "<group>";
+		};
+		6ECD5DAC1F72B60D00333DF9 /* CDTableview */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DAD1F72B60D00333DF9 /* CDStatusBarTableView.h */,
+				6ECD5DAE1F72B60D00333DF9 /* CDStatusBarTableView.m */,
+				6ECD5DAF1F72B60D00333DF9 /* CDStatusBarTableViewCell.h */,
+				6ECD5DB01F72B60D00333DF9 /* CDStatusBarTableViewCell.m */,
+				6ECD5DB11F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.h */,
+				6ECD5DB21F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.m */,
+				6ECD5DB31F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.h */,
+				6ECD5DB41F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.m */,
+			);
+			path = CDTableview;
+			sourceTree = "<group>";
+		};
+		6ECD5DB51F72B60D00333DF9 /* DataManage */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DB61F72B60D00333DF9 /* CDStatusBarDataManage.h */,
+				6ECD5DB71F72B60D00333DF9 /* CDStatusBarDataManage.m */,
+			);
+			path = DataManage;
+			sourceTree = "<group>";
+		};
+		6ECD5DB81F72B60D00333DF9 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DB91F72B60D00333DF9 /* CDStatusBar.h */,
+				6ECD5DBA1F72B60D00333DF9 /* CDStatusBar.m */,
+				6ECD5DBB1F72B60D00333DF9 /* CDStatusBarConfig.h */,
+				6ECD5DBC1F72B60D00333DF9 /* CDStatusBarView.h */,
+				6ECD5DBD1F72B60D00333DF9 /* CDStatusBarView.m */,
+				6ECD5DBE1F72B60D00333DF9 /* CDStatusBarViewController.h */,
+				6ECD5DBF1F72B60D00333DF9 /* CDStatusBarViewController.m */,
+				6ECD5DC01F72B60D00333DF9 /* CDStatusBarWindow.h */,
+				6ECD5DC11F72B60D00333DF9 /* CDStatusBarWindow.m */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		6ECD5DC21F72B60D00333DF9 /* CommonViewUnits */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DC31F72B60D00333DF9 /* CollectionItemView */,
+				6ECD5DC61F72B60D00333DF9 /* FrontView */,
+				6ECD5DC91F72B60D00333DF9 /* HeaderTypeListScrollView */,
+				6ECD5DCC1F72B60D00333DF9 /* MXParallaxHeader */,
+			);
+			path = CommonViewUnits;
+			sourceTree = "<group>";
+		};
+		6ECD5DC31F72B60D00333DF9 /* CollectionItemView */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DC41F72B60D00333DF9 /* CollectionItemView.h */,
+				6ECD5DC51F72B60D00333DF9 /* CollectionItemView.m */,
+			);
+			path = CollectionItemView;
+			sourceTree = "<group>";
+		};
+		6ECD5DC61F72B60D00333DF9 /* FrontView */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DC71F72B60D00333DF9 /* FrontView.h */,
+				6ECD5DC81F72B60D00333DF9 /* FrontView.m */,
+			);
+			path = FrontView;
+			sourceTree = "<group>";
+		};
+		6ECD5DC91F72B60D00333DF9 /* HeaderTypeListScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DCA1F72B60D00333DF9 /* HeaderTypeListScrollView.h */,
+				6ECD5DCB1F72B60D00333DF9 /* HeaderTypeListScrollView.m */,
+			);
+			path = HeaderTypeListScrollView;
+			sourceTree = "<group>";
+		};
+		6ECD5DCC1F72B60D00333DF9 /* MXParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DCD1F72B60D00333DF9 /* MXParallaxHeader.h */,
+				6ECD5DCE1F72B60D00333DF9 /* MXParallaxHeader.m */,
+			);
+			path = MXParallaxHeader;
+			sourceTree = "<group>";
+		};
+		6ECD5DCF1F72B60D00333DF9 /* Friday */ = {
+			isa = PBXGroup;
+			children = (
+				6ECD5DD01F72B60D00333DF9 /* Friday.framework */,
+			);
+			path = Friday;
 			sourceTree = "<group>";
 		};
 		6EE407A91F72494200F32620 = {
@@ -339,6 +489,9 @@
 		6EE407E81F72496500F32620 /* RD */ = {
 			isa = PBXGroup;
 			children = (
+				6ECD5DAA1F72B60D00333DF9 /* CDStatusBar */,
+				6ECD5DC21F72B60D00333DF9 /* CommonViewUnits */,
+				6ECD5DCF1F72B60D00333DF9 /* Friday */,
 				6EE408A41F724D3D00F32620 /* User */,
 				6EE407E91F72496500F32620 /* CategoryGroup */,
 				6EE408111F72496500F32620 /* controlFactory */,
@@ -765,6 +918,7 @@
 				"${BUILT_PRODUCTS_DIR}/HHRouter/HHRouter.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
 			);
@@ -776,6 +930,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HHRouter.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
 			);
@@ -805,36 +960,47 @@
 				6EE408771F72496500F32620 /* UIButton+CountDown.m in Sources */,
 				6EE408981F72496500F32620 /* RdAppServiceArgumentsAttach.m in Sources */,
 				6EE4087B1F72496500F32620 /* UIImage+Resize.m in Sources */,
+				6ECD5DDC1F72B60D00333DF9 /* HeaderTypeListScrollView.m in Sources */,
 				6EE408A31F72496500F32620 /* RdAppSkinColor.m in Sources */,
 				6EE4089C1F72496500F32620 /* RdTableView.m in Sources */,
 				6EE408801F72496500F32620 /* RDSlider.m in Sources */,
+				6ECD5DD31F72B60D00333DF9 /* CDStatusBarTableViewHeaderView.m in Sources */,
 				6EE4086F1F72496500F32620 /* NSString+FormatNumber.m in Sources */,
 				6EE408A91F724D3E00F32620 /* DataBaseManager.m in Sources */,
 				6EE408861F72496500F32620 /* UITextField+Masonry.m in Sources */,
+				6ECD5DD11F72B60D00333DF9 /* CDStatusBarTableView.m in Sources */,
 				6EE408711F72496500F32620 /* NSString+RouterParams.m in Sources */,
 				6EE4089A1F72496500F32620 /* CustomEmptyView.m in Sources */,
+				6ECD5DD61F72B60D00333DF9 /* CDStatusBar.m in Sources */,
 				6EE4088D1F72496500F32620 /* LGAlertViewCell.m in Sources */,
 				6EE408701F72496500F32620 /* NSString+FormatTime.m in Sources */,
 				6EE4087F1F72496500F32620 /* GetIpAddress.m in Sources */,
 				6EE408A21F72496500F32620 /* RDRouter.m in Sources */,
+				6ECD5DD51F72B60D00333DF9 /* CDStatusBarDataManage.m in Sources */,
 				6EE4089D1F72496500F32620 /* RDViewController.m in Sources */,
+				6ECD5DDA1F72B60D00333DF9 /* CollectionItemView.m in Sources */,
 				6EE408741F72496500F32620 /* RDCountDownButton.m in Sources */,
 				6EE408AA1F724D3E00F32620 /* RdAppUserProfile.m in Sources */,
 				6EE4088A1F72496500F32620 /* LGAlertPasswordView.m in Sources */,
 				6EE4086D1F72496500F32620 /* NSObject+Associate.m in Sources */,
 				6EE408891F72496500F32620 /* LGAlertPasswordTextField.m in Sources */,
+				6ECD5DDD1F72B60D00333DF9 /* MXParallaxHeader.m in Sources */,
 				6EE4087D1F72496500F32620 /* UITableViewCell+Bottomline.m in Sources */,
 				6EE408791F72496500F32620 /* UIColor+Palette.m in Sources */,
 				6EE408921F72496500F32620 /* RDAppError.m in Sources */,
 				6EE4087C1F72496500F32620 /* UIImage+Tint.m in Sources */,
 				6EE408881F72496500F32620 /* RDAddressBookManager.m in Sources */,
+				6ECD5DD81F72B60D00333DF9 /* CDStatusBarViewController.m in Sources */,
+				6ECD5DD21F72B60D00333DF9 /* CDStatusBarTableViewCell.m in Sources */,
 				6EE408951F72496500F32620 /* RdAppServiceAgent.m in Sources */,
 				6EE408831F72496500F32620 /* UIImageView+Masonry.m in Sources */,
+				6ECD5DDB1F72B60D00333DF9 /* FrontView.m in Sources */,
 				6EE408A11F72496500F32620 /* RDPageViewController.m in Sources */,
 				6EE408851F72496500F32620 /* UISlider+lyt.m in Sources */,
 				6EE4088F1F72496500F32620 /* LGAlertViewTextField.m in Sources */,
 				6EE408971F72496500F32620 /* RdAppServiceUploadFile.m in Sources */,
 				6EE408841F72496500F32620 /* UILabel+Masonry.m in Sources */,
+				6ECD5DD91F72B60D00333DF9 /* CDStatusBarWindow.m in Sources */,
 				6EE407BA1F72494200F32620 /* AppDelegate.m in Sources */,
 				6EE4088B1F72496500F32620 /* LGAlertView.m in Sources */,
 				6EE4089F1F72496500F32620 /* RdDictManager.m in Sources */,
@@ -844,8 +1010,10 @@
 				6EE408721F72496500F32620 /* NSString+StringSize.m in Sources */,
 				6EE4086E1F72496500F32620 /* NSString+FilePath.m in Sources */,
 				6EE407B71F72494200F32620 /* main.m in Sources */,
+				6ECD5DD71F72B60D00333DF9 /* CDStatusBarView.m in Sources */,
 				6EE408731F72496500F32620 /* NSString+Validation.m in Sources */,
 				6EE4089B1F72496500F32620 /* RDNavigationController.m in Sources */,
+				6ECD5DD41F72B60D00333DF9 /* CDStatusBarTableViewTextFieldCellTableViewCell.m in Sources */,
 				6EE408751F72496500F32620 /* SNSandBox.m in Sources */,
 				6EE408A01F72496500F32620 /* RDNetworkResult.m in Sources */,
 				6EE408961F72496500F32620 /* RdAppServiceConfig.m in Sources */,
@@ -1002,6 +1170,10 @@
 			baseConfigurationReference = CB921914C0DEF54AA733E383 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test/RD/Friday",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XianJia.Test;
@@ -1014,6 +1186,10 @@
 			baseConfigurationReference = 3DFA8ED0E6F7A31CA594C010 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Test/RD/Friday",
+				);
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XianJia.Test;

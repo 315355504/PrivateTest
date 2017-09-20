@@ -10,4 +10,5 @@ pod 'DZNEmptyDataSet', '~> 1.8.1'
 pod 'FMDB', '~> 2.7.2'
 pod 'HHRouter', '~> 0.1.9'
 pod 'YYText', '~> 1.0.7'
+pod 'SDWebImage', '~> 4.1.0'
 end
