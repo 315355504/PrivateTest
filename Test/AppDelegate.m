@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RdAppServiceAgent.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+//    [RdAppServiceAgent shareService].defaultConfig.useProductionServer = YES ;
+//    [RdAppServiceAgent shareService].defaultConfig.testBaseURL = AppDevUrl;
+//    [RdAppServiceAgent shareService].defaultConfig.baseURL = AppMainUrl;
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
